@@ -65,11 +65,12 @@ def count_multiples_of_3(limit):
 # Function 6: Sum of Even Numbers in a Range
 # This function should calculate and return the sum of even numbers within a given range.
 def sum_of_even_numbers(start, end):
-    
     result = 0
+    
     for i in range(start, end + 1):
         if i % 2 == 0:
             result += i           
+    
     return result
 
 
